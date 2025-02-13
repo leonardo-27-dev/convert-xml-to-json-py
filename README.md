@@ -31,6 +31,22 @@ Para converter os arquivos XML:
   python convert_xml_to_json.py
 ```
 
+### 4️⃣ Usar com Docker
+
+Você também pode usar o Docker para rodar o projeto:
+
+1. Construa a imagem Docker:
+
+    ```bash
+    docker-compose build
+    ```
+
+2. Inicie o contêiner:
+
+    ```bash
+    docker-compose up
+    ```
+
 ---
 
 ## 📁 Estrutura do projeto
@@ -42,6 +58,8 @@ Para converter os arquivos XML:
  ┣ 📂 xmls-jsons        # Aqui serão salvos os arquivos JSON gerados
  ┣ 📜 convert_xml_to_json.py  # Script principal de conversão
  ┣ 📜 requirements.txt  # Lista de dependências
+ ┣ 📜 Dockerfile        # Dockerfile para criar a imagem Docker
+ ┣ 📜 docker-compose.yml # Arquivo de configuração do Docker Compose
  ┗ 📜 README.md         # Documentação do projeto
 ```
 
@@ -52,6 +70,7 @@ Para converter os arquivos XML:
 - 🐍 **Python**
 - 📄 **xmltodict** para converter XML para JSON
 - 📁 **os** e **shutil** para manipulação de arquivos e diretórios
+- 🐳 **Docker** para containerização
 
 ---
 
@@ -72,4 +91,3 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` p
 💡 **Contribuições são bem-vindas!** Se encontrar algum problema ou quiser sugerir melhorias, fique à vontade para abrir uma issue ou pull request.
 
 ✨ *Happy coding!* 🚀
-
