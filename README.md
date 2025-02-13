@@ -60,6 +60,7 @@ Você também pode usar o Docker para rodar o projeto:
  ┣ 📜 requirements.txt  # Lista de dependências
  ┣ 📜 Dockerfile        # Dockerfile para criar a imagem Docker
  ┣ 📜 docker-compose.yml # Arquivo de configuração do Docker Compose
+ ┣ 📜 LICENSE           # Licença do projeto
  ┗ 📜 README.md         # Documentação do projeto
 ```
 
