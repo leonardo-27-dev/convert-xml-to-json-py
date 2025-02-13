@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  xml-to-json:
+    build: .
+    container_name: xml_to_json_converter
+    volumes:
+      - ./xmls:/app/xmls
+      - ./xmls-jsons:/app/xmls-jsons
+    restart: unless-stopped
